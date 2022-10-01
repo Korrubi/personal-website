@@ -1,0 +1,148 @@
+/* #rectangle {
+  display: inline-block;
+  width: 400px;
+  height: 1650px;
+  background: linear-gradient(
+    to top,
+    rgba(128, 128, 128, 0.3) 0%,
+    rgba(128, 128, 128, 0.3) 25%,
+    rgba(128, 128, 128, 0.3) 50%,
+    rgba(128, 128, 128, 0) 100%
+  );
+} */
+
+#Resume{
+  overflow: scroll;
+  background: #ced8ec;
+  background-size: 100%;
+}
+
+.names {
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+  /* padding-left: 450px; */
+}
+
+.names h2 {
+  position: relative;
+  font-size: 22px;
+  white-space: nowrap;
+}
+
+.intro-info{
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+  /* padding-left: 450px; */
+  white-space: nowrap;
+}
+
+.edu-info {
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.lang-info {
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.titles {
+  position: sticky;
+  /* text-align: right; */
+  padding-top: 10px;
+  padding-right: 250px;
+}
+
+.project-info {
+  font-size: 20px;
+  margin-left: 250px;
+  white-space: nowrap;
+}
+
+.certs {
+  position: relative;
+  top: -200px;
+}
+
+/* .last-name .first {
+  font-size: 80px;
+  margin-left: 250px;
+}
+
+.last-name .last {
+  font-size: 80px;
+  margin-left: 250px;
+} */
+
+.titles .intro{
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.titles .edu {
+  padding: 20px;
+  /* padding-top: 30px; */
+}
+
+.information .edu-info {
+  padding: 20px;
+  padding-top: 100px;
+  /* text-align: right; */
+}
+
+.titles .projects {
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.titles .langs {
+  padding: 20px;
+  /* padding-top: 100px; */
+}
+
+.titles .certs {
+  padding: 20px;
+  padding-top: 300px;
+}
+
+.download {
+  position: relative;
+  top: 2px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+#rectangle{
+  padding-left: 100px;
+}
+
+hr {
+  width: 100%;
+  padding-right: 100px;
+}
+
+.tech-logos{
+  display: flex;
+  padding: 60px;
+}
+
+.tech-logos div+div{
+  margin-left: 40px;
+}
+
+.tech-logos-bottom{
+  display: flex;
+
+}
+
+.tech-logos-bottom div+div{
+margin-left: 40px;
+}
+
+

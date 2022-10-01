@@ -1,0 +1,67 @@
+#contact {
+  background: #ced8ec;
+  padding-top: 50px;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+#contact .section-intro h1 {
+  text-align: center;
+  color: #24344d;
+  font-size: 24px;
+}
+
+#contact .section-intro h5 {
+  position: relative;
+  top: -10px;
+  font-size: 50px;
+  text-align: center;
+  color: #24344d;
+}
+
+#contact .section-intro p {
+  font-size: 18px;
+  text-align: center;
+  color: #24344d;
+}
+
+.contact-info {
+  margin: 2rem auto 0;
+  font-family: "poppins-regular", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-info .collapse {
+  padding: 0;
+}
+
+.contact-info .icon {
+  padding-bottom: 10px;
+  margin-bottom: 2.1rem;
+}
+
+.contact-info .icon i {
+  font-size: 4.2rem;
+  text-shadow: red;
+  color: #ffffffbe;
+}
+
+.contact-info h5 {
+  position: relative;
+  color: #24344d;
+  top: -10px;
+}
+.contact-info p {
+  padding-bottom: 25px;
+}
+
+/* Center page bar */
+.contact-bar hr {
+  color: #24344d;
+  width: 50%;
+  margin: 0px auto 40px auto;
+
+  /* border-color: rgba(150, 150, 150, 0.1); */
+}

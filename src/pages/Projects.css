@@ -1,0 +1,173 @@
+/* .software-card{
+    background-color: var(--bs-gray-dark);
+	color: var(--bs-light);
+} */
+
+#project {
+	background: #ced8ec;
+	/* width: 100%;
+	height: 100%; */
+	background-size: cover;
+  }
+
+.project-title h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.software-card p {
+    text-align: justify;
+	min-height: 100px;
+}
+
+.bottom-card{
+	padding-bottom: 100px;
+}
+
+.sw-img {
+	max-height: 100%;
+	max-width: 75%;
+}
+
+.button-row {
+	position: relative;
+	/* bottom: 15px; */
+}
+
+.sw-img-container {
+	float: right;
+	padding-bottom: 100px;
+	padding: 20px;
+}
+  
+.button-row {
+    padding-top: 8px;
+    position: relative;
+}
+  
+/* For Card View */
+.container {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+	flex-wrap: no-wrap;
+}
+  
+.container div {
+    width: 50%;
+	height: 200px;
+}
+  
+@media (max-width: 600px) {
+    .container {
+	  flex-direction: column;
+    }
+    .container div {
+	  width: 100%;
+    }
+}
+
+/* Badges */
+
+.badge {
+	font-weight: 500;
+}
+
+.bs-badge {
+	background-color: var(--bs-success);
+}
+
+.html-badge {
+	background-color: var(--bs-cyan);
+	color: var(--bs-gray-dark)
+}
+
+.css-badge {
+	background-color: var(--bs-primary);
+}
+
+.js-badge {
+	background-color: var(--bs-warning);
+	color: var(--bs-gray-dark)
+}
+
+.java-badge {
+	background-color: var(--bs-cyan);
+	color: var(--bs-gray-dark);
+}
+
+.kotlin-badge{
+    background-color: var(--bs-indigoalt);
+	color: var(--bs-gray-dark);
+}
+
+.csharp-badge {
+    background-color: var(--bs-danger);
+    color: var(--bs-gray-dark);
+}
+
+.python-badge {
+	background-color: var(--bs-teal);
+	color: var(--bs-gray-dark);
+}
+
+.react-badge {
+	background-color: var(--bs-orange);
+	/* color: var(--bs-gray-dark) */
+}
+
+.reactn-badge {
+	background-color: var(--bs-purple);
+}
+
+.aws-badge {
+	background-color: #ec912d;
+	color: var(--bs-gray-dark);
+}
+
+.cloud-badge {
+	background-color: rgb(80, 71, 138);
+}
+
+.rstudio-badge{
+    background-color: var(--bs-r);
+	color: var(--bs-gray-dark);
+}
+
+.c-badge {
+	background-color: darkmagenta;
+}
+
+
+
+/* End Badges */
+
+:root {
+	/* BOOTSTRAP COLORS */
+	--bs-primary: #0d6efd;
+	--bs-secondary: #6c757d;
+	--bs-success: #198754;
+	--bs-info: #0dcaf0;
+	--bs-warning: #ffc107;
+	--bs-danger: #dc3545;
+	--bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    
+    --bs-indigoalt: #b19cd9;
+    --bs-r: #4AA4DE;
+
+	--bs-blue: #0d6efd;
+	--bs-indigo: #6610f2;
+	--bs-purple: #6f42c1;
+	--bs-pink: #d63384;
+	--bs-red: #dc3545;
+	--bs-orange: #fd7e14;
+	--bs-yellow: #ffc107;
+	--bs-green: #198754;
+	--bs-teal: #20c997;
+	--bs-cyan: #0dcaf0;
+	--bs-white: #fff;
+	--bs-gray: #6c757d;
+	--bs-gray-dark: #343a40;
+}
